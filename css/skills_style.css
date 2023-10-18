@@ -1,0 +1,61 @@
+body {
+  background-color: lightgray;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.olympic-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+}
+
+.title {
+  color: black;
+  font-size: 48px;
+}
+
+.subtitle {
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.dropdown-container {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+  width: 50%;
+}
+
+#skills-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+#next-button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#next-button:hover {
+  background-color: gray;
+}
